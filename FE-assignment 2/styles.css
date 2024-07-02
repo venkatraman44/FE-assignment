@@ -1,0 +1,85 @@
+.calendar-container {
+  padding-top: 0.5rem;
+  margin: 0 auto;
+}
+
+.month-container {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px;
+}
+
+.year {
+  font-weight: 600;
+  color: black;
+  font-size: 12px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: red;
+}
+
+.day {
+  border: white 1px solid;
+  padding: 20px;
+  color: green;
+}
+
+.date {
+  border: white 1px solid;
+  padding: 20px;
+  color: black;
+}
+
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: white;
+}
+
+.start {
+  grid-column-start: 1;
+}
+
+.projects {
+  grid-area: 3/5/4/8;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  height: 25px;
+  padding: 5px;
+  margin: 40px 5px 5px 5px;
+}
+
+.event-one {
+  grid-area: 3/5/4/6;
+}
+
+.event-two {
+  grid-area: 3/6/4/7;
+}
+
+.event-three {
+  grid-area: 3/7/4/8;
+}
+
+.light {
+  color: gray;
+}
+
+.month-container {
+  position: relative;
+  background-color: black;
+  color: red;
+}
+
+.date {
+  background-color: plum;
+}
+.day {
+  background-color: goldenrod;
+  color: #317907;
+}
+
